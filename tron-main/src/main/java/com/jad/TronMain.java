@@ -5,9 +5,9 @@ import com.jad.tron.*;
 public enum TronMain {
     ;
 
-    static final int GRID_HEIGHT = 150;
-    static final int GRID_WIDTH = 600;
-    static final int AI_PLAYER_COUNT = 1000;
+    static final int GRID_HEIGHT = 120;
+    static final int GRID_WIDTH = 400;
+    static final int AI_PLAYER_COUNT = 1;
 
     public static void main(String[] args) {
         IGrid grid = new Grid(TronMain.GRID_HEIGHT, TronMain.GRID_WIDTH);
