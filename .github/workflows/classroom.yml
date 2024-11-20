@@ -27,6 +27,9 @@ jobs:
       - name: Generate Dependency Tree
         run: mvn -q dependency:tree -DoutputFile=target/dependency-tree.txt -Daggregate=true
 
+      - name: Generate All classes
+        run: mvn -q compile
+
       - name: Test if all elements are well placed
         id: test-well-placed-elements
         uses: classroom-resources/autograding-command-grader@v1

@@ -35,7 +35,7 @@ public class TronClassesTest {
 
     @Test
     void wellPlacedAbstractPlayerTest() {
-        //UtilTest.testIfClassExistsInModule("com.jad.tron.AbstractPlayer", UtilTest.MODEL_NAME);
+        UtilTest.testIfClassExistsInModule("com.jad.tron.AbstractPlayer", UtilTest.MODEL_NAME);
     }
 
     @Test
