@@ -31,7 +31,7 @@
         </dependency>
         <dependency>
             <groupId>com.jad</groupId>
-            <artifactId>tron-controller</artifactId>
+            <artifactId>tron-controller_</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
