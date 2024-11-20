@@ -65,7 +65,6 @@
                     <includes>
                         <include>**/*Test.java</include>
                         <include>**/*Tests.java</include>
-                        <include>**/TronClassesTest.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
