@@ -24,7 +24,6 @@ public enum UtilTest {
     }
 
     static void testIfClassExistsInModule(String className, String moduleName) {
-        String modulePath = UtilTest.getModulePath(moduleName);
         String classPath = UtilTest.getClassPathInModule(className, moduleName);
         assertTrue(Files.exists(Paths.get(classPath)), "Class " + className + " is misplaced");
     }
