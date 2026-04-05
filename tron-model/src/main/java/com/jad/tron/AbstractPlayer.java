@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-abstract class AbstractPlayer implements IPlayer {
+public abstract class AbstractPlayer implements IPlayer {
     private final String name;
     @Setter
     private IGrid grid;
